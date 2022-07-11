@@ -1,0 +1,112 @@
+
+Menu{
+  padding: 10px;
+  text-align: center;
+}
+
+.menu li{
+  list-style: none;
+  padding: 5px;
+  font: bold 30px verdana;
+  display: inline-block;
+  border: 2px solid white;
+  background-color: lightgreen;
+}
+
+body{
+  text-align: center;
+  height: 100%;
+  font-family: sans-serif, 'Noto Sans';
+  background-color: violet;
+}
+
+.contact_form {
+width: 460px;
+height: auto;
+margin: 80px auto;
+border: 2px solid black;
+border-radius: 10px;
+padding: center;
+background-color:lightgreen;
+}
+
+input{
+  background-color: lightskyblue;
+  width: 300px;
+  height:20px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 10px;
+  padding: center;
+  margin-bottom: 20px;
+}
+
+textarea{
+  background-color: lightskyblue;
+  width: 300px;
+  height:300px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: violet;
+  margin-top: 10px;
+  padding: center;
+  margin-bottom: 10px;
+}
+
+label{
+  display: block;
+}
+
+button{
+  height: 45px;
+  padding: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-color: lightskyblue;
+  border-color: black;
+  border-radius: 150px;
+  width: 420px;
+}
+
+button p{
+  color: red;
+}
+
+span{
+color: black;
+}
+
+.aviso{
+  font-size: 13px;
+  color: black;
+}
+
+h1{
+  font-size: 39px;
+  text-align: center;
+  padding: center;
+  color: black;
+}
+
+h3{
+  font-size: 16px;
+  text-align: center;
+  padding: center;
+  color: lightskyblue;
+}
+
+p{
+font-size: 14px;
+color: red;
+}
+
+::-webkit-input-placeholder{
+color: red;
+}
+
+::-webkit-textarea-placeholder{
+color: red;
+}
